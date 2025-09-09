@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# 🚀 Portfolio Website
 
-## Project info
+A modern and responsive **portfolio website** built with **React, TypeScript, Vite, Tailwind CSS, and shadcn-ui**.  
+This project showcases my skills, projects, and experiences in an interactive and stylish way.
 
-**URL**: https://lovable.dev/projects/9c31ee9b-ddeb-4e30-8ecb-b11ab2a770db
+---
 
-## How can I edit this code?
+## 🛠️ Tech Stack
 
-There are several ways of editing your application.
+- ⚛️ **React 18 + TypeScript** – component-based, strongly typed frontend  
+- ⚡ **Vite** – fast development and build tool  
+- 🎨 **Tailwind CSS** – utility-first styling  
+- 🧩 **shadcn-ui + Radix UI** – accessible, customizable UI components  
+- 📊 **Recharts** – data visualization  
+- 🔔 **Sonner** – toast notifications  
+- 🎭 **Lucide Icons** – modern icon set  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9c31ee9b-ddeb-4e30-8ecb-b11ab2a770db) and start prompting.
+## 📂 Project Structure
 
-Changes made via Lovable will be committed automatically to this repo.
+```
+src/
+ ├── components/   # Reusable UI components
+ ├── pages/        # Portfolio sections (Home, About, Projects, Contact, etc.)
+ ├── styles/       # Tailwind + custom styles
+ ├── assets/       # Images, icons, fonts
+ ├── App.tsx       # Main app component
+ └── main.tsx      # App entry point
+```
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ⚙️ Installation & Setup
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+Make sure you have **Node.js (>=18)** and **npm** installed.
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# 1. Clone the repository
+git clone <YOUR_REPO_URL>
+cd portfolio
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# 2. Install dependencies
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Your app will be running on **http://localhost:5173** by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🏗️ Build for Production
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```sh
+npm run build
+```
 
-## What technologies are used for this project?
+The output will be in the `dist/` folder.
 
-This project is built with:
+Preview the production build locally:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+npm run preview
+```
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/9c31ee9b-ddeb-4e30-8ecb-b11ab2a770db) and click on Share -> Publish.
+## 🌍 Deployment
 
-## Can I connect a custom domain to my Lovable project?
+This project can be easily deployed on **Vercel**:
 
-Yes, you can!
+1. Push the code to GitHub.  
+2. Import the repository into [Vercel](https://vercel.com).  
+3. Set:
+   - **Build Command:** `npm run build`  
+   - **Output Directory:** `dist`  
+4. Click **Deploy** 🚀  
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+You’ll get a live URL instantly, and can later connect a **custom domain**.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+## 📬 Contact
+
+If you’d like to get in touch:
+
+- ✉️ Email: ansarifaiz7977@gmail.com  
+- 💻 GitHub: [faizzzansari](https://github.com/faizzzansari)  
+- 🌐 Portfolio: (add once deployed)  
+
+---
+
+✨ Built with passion using **React + TypeScript + Tailwind**.
