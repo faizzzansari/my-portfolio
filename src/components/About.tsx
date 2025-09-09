@@ -7,7 +7,7 @@ const About = () => {
     Frontend: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Bootstrap'],
     Backend: ['Django', 'Node.js', 'Express.js'],
     Database: ['MySQL', 'MongoDB', 'SQLite'],
-    'Programming Languages': ['Python', 'C', 'Java', 'JavaScript', 'TypeScript'],
+    'Programming Languages': ['C', 'C++', 'Python', 'Java', 'JavaScript', 'C#', 'TypeScript'],
   };
 
   const skillIcons = {
@@ -34,21 +34,17 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6 text-gold">My Journey</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                I'm a passionate creative developer with a deep love for crafting digital experiences 
-                that seamlessly blend form and function. My journey in technology is driven by the 
-                belief that great design and robust development go hand in hand.
+                I’m a creative and passionate developer who loves crafting digital experiences that blend design and functionality. For me, development is about building solutions that are not only visually engaging but also user-friendly and impactful.
               </p>
               <p>
-                Currently pursuing my BSc IT degree (3rd Year) at Anjuman-I-Islam Kalsekar Technical Campus, 
-                I've built a strong foundation in both theoretical concepts and practical application. 
-                My educational journey began with completing my 10th and 12th from Maharashtra State Board, 
-                where I first discovered my passion for technology.
+                Currently pursuing my BSc IT (3rd Year) at Anjuman-I-Islam’s Kalsekar Technical Campus, I have developed a strong foundation in programming, web technologies, and problem-solving.
               </p>
               <p>
-                I specialize in creating high-performance websites and applications that are not just 
-                visually appealing, but also user-friendly and accessible. Every project I work on 
-                is an opportunity to push boundaries and create something meaningful.
+                I specialize in building modern, responsive, and high-performance web applications using React, TypeScript, Django, and Tailwind CSS, with a focus on delivering seamless user experiences.
               </p>
+             <p>
+              My goal is to create digital products that look great, perform smoothly, and make a real difference.
+             </p>
             </div>
 
             {/* Education */}
@@ -59,21 +55,21 @@ const About = () => {
                   <div className="w-2 h-2 bg-gold rounded-full mt-2"></div>
                   <div>
                     <p className="font-medium">BSc Information Technology (3rd Year)</p>
-                    <p className="text-sm text-muted-foreground">Anjuman-I-Islam Kalsekar Technical Campus</p>
+                    <p className="text-sm text-muted-foreground">Anjuman-I-Islam Kalsekar Technical Campus Panvel (2023 - 2026)</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-gold rounded-full mt-2"></div>
                   <div>
-                    <p className="font-medium">12th Grade</p>
-                    <p className="text-sm text-muted-foreground">Maharashtra State Board</p>
+                    <p className="font-medium">HSC (12th Grade)</p>
+                    <p className="text-sm text-muted-foreground">Swami Ramkrishna Paramhans Junior College (2022 - 2023)</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-2 h-2 bg-gold rounded-full mt-2"></div>
                   <div>
-                    <p className="font-medium">10th Grade</p>
-                    <p className="text-sm text-muted-foreground">Maharashtra State Board</p>
+                    <p className="font-medium">SSC (10th Grade)</p>
+                    <p className="text-sm text-muted-foreground">Daffodils English High School (2020 - 2021)</p>
                   </div>
                 </div>
               </div>
