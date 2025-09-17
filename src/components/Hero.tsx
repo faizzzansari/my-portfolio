@@ -25,7 +25,7 @@ const Hero = () => {
                 alt="Faiz Ansari"
                 className="w-48 h-48 rounded-full object-cover shadow-elevated"
               />
-              <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20 animate-glow"></div>
+              {/* <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20 animate-glow"></div> */}
             </div>
           </div>
 
