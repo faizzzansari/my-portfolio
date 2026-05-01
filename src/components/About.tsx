@@ -33,18 +33,10 @@ const About = () => {
           <div className="animate-slide-in-left">
             <h3 className="text-2xl font-bold mb-6 text-gold">My Journey</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
-              <p>
-                I’m a creative and passionate developer who loves crafting digital experiences that blend design and functionality. For me, development is about building solutions that are not only visually engaging but also user-friendly and impactful.
-              </p>
-              <p>
-                Currently pursuing my BSc IT (3rd Year) at Anjuman-I-Islam’s Kalsekar Technical Campus, I have developed a strong foundation in programming, web technologies, and problem-solving.
-              </p>
-              <p>
-                I specialize in building modern, responsive, and high-performance web applications using React, TypeScript, Django, and Tailwind CSS, with a focus on delivering seamless user experiences.
-              </p>
-             <p>
-              My goal is to create digital products that look great, perform smoothly, and make a real difference.
-             </p>
+              <p> I’m a passionate full stack developer who enjoys building real-world applications that solve practical problems. I focus on creating clean, responsive, and user-friendly interfaces backed by efficient and scalable systems. </p>
+             <p> I have completed my BSc in Information Technology from Anjuman-I-Islam’s Kalsekar Technical Campus, where I built a strong foundation in programming, software development, and system design. </p>
+             <p> I specialize in modern web development using React, TypeScript, Node.js, and FastAPI. I have built multiple real-world projects including an e-commerce platform, a retail billing system, and AI-based applications, focusing on performance and usability. </p>
+            <p> My goal is to continuously grow as a developer, work on impactful projects, and build digital products that deliver real value to users and businesses. </p>
             </div>
 
             {/* Education */}
