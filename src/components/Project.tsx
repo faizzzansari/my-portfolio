@@ -4,48 +4,65 @@ import { Badge } from '@/components/ui/badge';
 import { ExternalLink, Github, Code2 } from 'lucide-react';
 
 const Project = () => {
-  const projects = [
-    {
-      title: 'Bank Management System',
-      description: 'A comprehensive console-based banking application built in C, featuring account management, transaction processing, and secure data handling.',
-      technologies: ['C', 'File Handling', 'Data Structures'],
-      category: 'Console Application',
-      features: ['Account Creation', 'Transaction Management', 'Balance Inquiry', 'Secure Authentication'],
-      status: 'Completed'
-    },
-    {
-      title: 'Tic-Tac-Toe Game',
-      description: 'Interactive game implementation with both two-player and single-player modes, featuring AI opponent and intuitive user interface.',
-      technologies: ['C', 'Algorithm Design', 'Game Logic'],
-      category: 'Game Development',
-      features: ['Two-Player Mode', 'AI Opponent', 'Score Tracking', 'Clean Interface'],
-      status: 'Completed'
-    },
-    {
-      title: 'Portfolio Website (Django)',
-      description: 'Professional portfolio website built with Django framework, featuring a stunning goldenrod and black theme with smooth animations.',
-      technologies: ['Django', 'HTML', 'CSS', 'JavaScript', 'SQLite'],
-      category: 'Web Development',
-      features: ['Responsive Design', 'Smooth Animations', 'Contact Form', 'Admin Panel'],
-      status: 'Completed'
-    },
-    {
-      title: 'React Portfolio (Current)',
-      description: 'Modern, responsive portfolio built with React, Vite, and Tailwind CSS, showcasing contemporary web development practices.',
-      technologies: ['React', 'Vite', 'Tailwind CSS', 'TypeScript'],
-      category: 'Web Development',
-      features: ['Modern Stack', 'Component Architecture', 'Dark Theme', 'Mobile Responsive'],
-      status: 'In Progress'
-    },
-    {
-      title: 'Doctor Appointment System',
-      description: 'Mobile application for healthcare appointment management, built with React Native and MongoDB for seamless user experience.',
-      technologies: ['React Native', 'MongoDB', 'Node.js', 'Express.js'],
-      category: 'Mobile Development',
-      features: ['Appointment Booking', 'Doctor Profiles', 'User Authentication', 'Real-time Updates'],
-      status: 'Planned'
-    }
-  ];
+const projects = [
+  {
+    title: 'RetailSmart - Inventory & Billing System',
+    description: 'A full-stack retail management application designed for small businesses to handle inventory, billing, and sales reporting efficiently.',
+    technologies: ['Flutter', 'FastAPI', 'MongoDB'],
+    category: 'Full Stack Application',
+    features: [
+      'Product Management',
+      'Billing System with Auto Stock Update',
+      'Invoice Generation',
+      'Sales Reports (Daily/Monthly)',
+      'Low Stock Alerts'
+    ],
+    status: 'Completed'
+  },
+
+  {
+    title: 'E-Commerce Website',
+    description: 'A full-stack e-commerce platform with product listing, authentication, cart system, and responsive UI for seamless user experience.',
+    technologies: ['React', 'Supabase', 'JavaScript', 'CSS'],
+    category: 'Web Development',
+    features: [
+      'Product Listing & Filtering',
+      'User Authentication',
+      'Shopping Cart System',
+      'Responsive Design',
+      'Real-time Database Integration'
+    ],
+    status: 'Completed'
+  },
+
+  {
+    title: 'Nova AI',
+    description: 'An AI-powered application designed to assist users with intelligent responses and automation, showcasing integration of AI features in modern apps.',
+    technologies: ['React', 'Node.js', 'API Integration'],
+    category: 'AI Application',
+    features: [
+      'AI Chat Interface',
+      'Real-time Response Generation',
+      'API Integration',
+      'Modern UI Design'
+    ],
+    status: 'Completed'
+  },
+
+  {
+    title: 'React Portfolio',
+    description: 'Modern, responsive portfolio built with React, Vite, and Tailwind CSS, showcasing projects, skills, and development experience.',
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'TypeScript'],
+    category: 'Web Development',
+    features: [
+      'Component-Based Architecture',
+      'Responsive Design',
+      'Modern UI/UX',
+      'Project Showcase Section'
+    ],
+    status: 'Completed'
+  }
+];
 
   const getStatusColor = (status: string) => {
     switch (status) {
